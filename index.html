@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kopi Senja — Coffee Shop Artisan</title>
+  <meta name="description" content="Kopi Senja: coffee shop dengan biji single-origin lokal dan tempat nyaman untuk kerja & nongkrong." />
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: {
+        primary: "#8b5e34", secondary: "#c8a27a", dark: "#2b1d12", surface: "#faf5ef",
+      } } },
+    };
+  </script>
+  <style>:root { --font-display: 'Playfair Display', serif; --font-body: 'Inter', sans-serif; }</style>
+  <script type="importmap">
+  { "imports": {
+    "react/": "https://esm.sh/react@^19.2.0/",
+    "react": "https://esm.sh/react@^19.2.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.0/"
+  } }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/index.tsx"></script>
+</body>
+</html>
